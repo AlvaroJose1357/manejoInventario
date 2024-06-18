@@ -1,3 +1,7 @@
+# Datos del autor: Juan David Vergara, Santiago Ortiz
+# Fecha: 
+# Código de los integrantes: 202362484, 202362601
+# Descripción: funciones del Sitema de Inventario para una bodega
 import tkinter as tk #se importa la libreria tkinter con el alias tk
 import modulos
 
