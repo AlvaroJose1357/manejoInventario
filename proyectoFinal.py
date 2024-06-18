@@ -54,5 +54,5 @@ def iniciar_ventana_inicio():
 
     ventana_inicio.mainloop() # se ejecuta la ventana de inicio 
 
-if __name__ == "__main__":
-    iniciar_ventana_inicio()
+if __name__ == "__main__":  # se ejecuta el programa principal
+    iniciar_ventana_inicio() # se ejecuta la funcion iniciar_ventana_inicio
