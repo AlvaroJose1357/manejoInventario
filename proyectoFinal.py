@@ -52,7 +52,7 @@ def iniciar_ventana_inicio():
     tk.Button(ventana_inicio, text="Iniciar Sesión", command=lambda: modulos.iniciar_sesion(usuarios, entry_usuario, entry_contraseña, ventana_inicio, abrir_ventana_principal)).pack(padx=20, pady=20) # crea un boton para iniciar sesion y llama a la funcion iniciar_sesion del modulo modulos pasandole los parametros correspondientes 
     
 
-    ventana_inicio.mainloop()
+    ventana_inicio.mainloop() # se ejecuta la ventana de inicio 
 
 if __name__ == "__main__":
     iniciar_ventana_inicio()
